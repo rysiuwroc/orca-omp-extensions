@@ -6,6 +6,19 @@ Extensions for [OMP](https://github.com/oh-my-pi/pi-coding-agent) running in the
 
 Clone the repository, then use the installer for your platform. Prerequisite: OMP is installed.
 
+### Copy/paste prompt for an agent
+
+```text
+Install the Orca OMP extensions for my current user. Clone
+https://github.com/rysiuwroc/orca-omp-extensions.git, enter that checkout, and
+detect whether this is Windows PowerShell or macOS/Linux. Run the repository's
+install.ps1 or install.sh, report the target directory and copied files, then
+remind me to restart OMP. Do not copy any other files or use another user's
+home directory.
+```
+
+### Install manually
+
 ```sh
 git clone https://github.com/rysiuwroc/orca-omp-extensions.git
 cd orca-omp-extensions
@@ -45,16 +58,6 @@ three distributed files, and reports the target path.
 OMP loads direct `.ts` files from that directory at startup. Restart OMP after
 installation (and after any later extension update) for changes to take effect.
 
-## Copy/paste prompt for an agent
-
-```text
-Install the Orca OMP extensions for my current user. Clone
-https://github.com/rysiuwroc/orca-omp-extensions.git, enter that checkout, and
-detect whether this is Windows PowerShell or macOS/Linux. Run the repository's
-install.ps1 or install.sh, report the target directory and copied files, then
-remind me to restart OMP. Do not copy any other files or use another user's
-home directory.
-```
 
 # Maintainer notes
 
