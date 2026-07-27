@@ -4,8 +4,6 @@ Extensions for [OMP](https://github.com/oh-my-pi/pi-coding-agent) running in the
 
 ## Install
 
-Clone the repository, then use the installer for your platform. Prerequisite: OMP is installed.
-
 ### Copy/paste prompt for an agent
 
 ```text
@@ -19,6 +17,8 @@ home directory.
 
 ### Install manually
 
+Clone the repository, then use the installer for your platform. Prerequisite: OMP is installed.
+
 ```sh
 git clone https://github.com/rysiuwroc/orca-omp-extensions.git
 cd orca-omp-extensions
@@ -26,7 +26,7 @@ cd orca-omp-extensions
 
 The installer locates its own directory, so you may also invoke it from elsewhere after cloning.
 
-## Windows (PowerShell 5.1+)
+#### Windows (PowerShell 5.1+)
 
 From PowerShell, after cloning the repository:
 
@@ -44,7 +44,7 @@ The installer creates
 `$HOME\.omp\agent\extensions` when needed, copies only the three distributed
 files, and reports the target path.
 
-## macOS/Linux (POSIX `sh`)
+#### macOS/Linux (POSIX `sh`)
 
 From a POSIX shell, after cloning the repository:
 
