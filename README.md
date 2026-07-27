@@ -1,6 +1,6 @@
 # orca-omp-extensions
 
-Extensions for [OMP](https://github.com/oh-my-pi/pi-coding-agent) running in the Orca terminal.
+Extensions for OMP running in the Orca terminal.
 
 ## Install
 
